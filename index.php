@@ -15,7 +15,7 @@ include 'templates/header.php';
                       </a>
                   </li>
                         <li class="active">
-                      <a href="hrmdatabase.php">
+                      <a href="/site/database.php">
                           <i class="icon-home glyphicon glyphicon-home"></i>
                           <i class="icon-chevron-right glyphicon glyphicon-chevron-right"></i> 
                           <?php echo ASLang::get('dbms'); ?>
