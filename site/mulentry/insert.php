@@ -1,6 +1,6 @@
 <?php
 //insert.php
-$connect = mysqli_connect("localhost", "crude", "test1234", "crude");
+$connect = mysqli_connect("hrmdb.mysql.database.azure.com", "rooter@hrmdb", "Test1234", "crude");
 if(isset($_POST["id"]))
 {
  $id = $_POST["id"];
