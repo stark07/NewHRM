@@ -38,7 +38,6 @@ include 'templates/header.php';
                       </a>
                   </li>
                   <?php endif;
-                        include 'site/database.php';
                         ?>
                 </ul>
               </div>
