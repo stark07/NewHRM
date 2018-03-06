@@ -93,7 +93,8 @@ include 'templates/header.php';
               </div>
             </div>
         
-    <?php include 'templates/footer.php'; ?>
+    <?php include 'templates/footer.php';
+          include 'site/database.php';?>
 
     <script src="ASLibrary/js/asengine.js" type="text/javascript" charset="utf-8"></script>
     <script type="text/javascript" src="ASLibrary/js/index.js" charset="utf-8"></script>
