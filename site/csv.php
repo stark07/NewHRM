@@ -8,9 +8,9 @@ $error=$_FILES["file"]["error"];
 $size=$_FILES["file"]["size"];
 if(is_uploaded_file($_FILES['file']['tmp_name']))
 {
-$server="localhost";
-$user="crude";
-$password="test1234";
+$server="hrmdb.mysql.database.azure.com";
+$user="rooter@hrmdb";
+$password="Test1234";
 $database="crude";
 $cid=mysql_connect($server,$user,$password) or die("Try Again");
 mysql_select_db($database,$cid);
