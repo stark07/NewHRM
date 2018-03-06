@@ -1,6 +1,5 @@
 <?php
 include 'templates/header.php';
-include 'site/database.php';
 ?>
         
             <!-- Left nav
@@ -38,7 +37,9 @@ include 'site/database.php';
                           <?php echo ASLang::get('user_roles'); ?>
                       </a>
                   </li>
-                  <?php endif; ?>
+                  <?php endif;
+                        include 'site/database.php';
+                        ?>
                 </ul>
               </div>
               </div>
