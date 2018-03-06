@@ -1,7 +1,7 @@
 <?php
-define('DB_SERVER', 'localhost');
-define('DB_USER', 'crude');
-define('DB_PASSWORD', 'test1234');
+define('DB_SERVER', 'hrmdb.mysql.database.azure.com');
+define('DB_USER', 'rooter@hrmdb');
+define('DB_PASSWORD', 'Test1234');
 define('DB_NAME', 'crude');
 
 
