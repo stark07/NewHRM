@@ -19,7 +19,7 @@ sec_session_start();
     
         <?php else : ?>
             <p>
-                <span class="error">You are not authorized to access this page.</span> Please <a href="index.php">login</a>.
+                <span class="error">Logout</span> Please <a href="../logout.php">Logout</a>.
             </p>
         <?php endif; ?>
         <?php include('database.php'); ?>
