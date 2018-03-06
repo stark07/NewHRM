@@ -6,9 +6,9 @@
 */
 
 // Connection variables
-$host = "localhost"; // MySQL host name eg. localhost
-$user = "crude"; // MySQL user. eg. root ( if your on local server)
-$password = "test1234"; // MySQL user password  (if password is not set for your root user then keep it empty )
+$host = "hrmdb.mysql.database.azure.com"; // MySQL host name eg. localhost
+$user = "rooter@hrmdb"; // MySQL user. eg. root ( if your on local server)
+$password = "Test1234"; // MySQL user password  (if password is not set for your root user then keep it empty )
 $database = "crude"; // MySQL Database name
 
 // Connect to MySQL Database
