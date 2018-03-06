@@ -41,10 +41,6 @@ $register->botProtection();
                  <img src="assets/img/en.png" alt="English"
                       class="<?php echo ASLang::getLanguage() != 'en' ? 'fade' : ''; ?>" />
              </a>
-             <a href="?lang=rs">
-                 <img src="assets/img/rs.png" alt="Serbian"
-                      class="<?php echo ASLang::getLanguage() != 'rs' ? 'fade' : ''; ?>" />
-             </a>
          </div>
 
          <div class="modal" id="loginModal">
