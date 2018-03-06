@@ -29,4 +29,6 @@ while($row = mysqli_fetch_array($result))
 }
 $output .= '</table>';
 echo $output;
+
+<input type="button" class="btn btn-info" value="Input Button" onclick="location.href = '../database.php';">
 ?>
