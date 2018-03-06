@@ -1,5 +1,5 @@
 <?php
-include '../templates/header.php';
+include '/templates/header.php';
 ?>
 
 <!DOCTYPE html>
@@ -123,5 +123,5 @@ include '../templates/header.php';
 </html>
 
 
-<?php include '../templates/footer.php';
+<?php include '/templates/footer.php';
      ?>
