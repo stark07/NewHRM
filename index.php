@@ -21,6 +21,15 @@ include 'templates/header.php';
                           <?php echo ASLang::get('my_profile'); ?>
                       </a>
                   </li>
+                        
+                  <li>
+                      <a href="/site/protected_page.php">
+                          <i class="icon-user glyphicon glyphicon-user"></i>
+                          <i class="icon-chevron-right glyphicon glyphicon-chevron-right"></i> 
+                          <?php echo ASLang::get('my_database'); ?>
+                      </a>
+                  </li>
+                        
                   <?php if($user->isAdmin()): ?>
                   <li>
                       <a href="users.php">
