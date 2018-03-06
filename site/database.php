@@ -43,10 +43,10 @@
                 <div class="col-md-12">
                     <div class="page-header clearfix">
                         <h2 class="pull-left">Employees Details</h2>
-                        <a href="/mulentry/multientry.php" class="btn btn-success pull-right">Add New Employee - Single / Multiple Entry</a>
+                        <a href="/site/mulentry/multientry.php" class="btn btn-success pull-right">Add New Employee - Single / Multiple Entry</a>
                     </div>
                     <div align="right">
-                        <a href="/mulentry/multientry.php" class="btn btn-success pull-right">Add New Employee - Multi Entry</a></div>
+                        <a href="/site/mulentry/multientry.php" class="btn btn-success pull-right">Add New Employee - Multi Entry</a></div>
                     
     <div class="row">
         <div class="col-md-6 col-md-offset-0">
