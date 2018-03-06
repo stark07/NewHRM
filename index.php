@@ -14,6 +14,14 @@ include 'templates/header.php';
                           <?php echo ASLang::get('home'); ?>
                       </a>
                   </li>
+                        <li class="active">
+                      <a href="hrmdatabase.php">
+                          <i class="icon-home glyphicon glyphicon-home"></i>
+                          <i class="icon-chevron-right glyphicon glyphicon-chevron-right"></i> 
+                          //<?php echo ASLang::get('home'); ?>
+                      </a>
+                  </li>
+                        
                   <li>
                       <a href="profile.php">
                           <i class="icon-user glyphicon glyphicon-user"></i>
