@@ -43,14 +43,12 @@
                 <div class="col-md-12">
                     <div class="page-header clearfix">
                         <h2 class="pull-left">Employees Details</h2>
-                        <a href="/site/mulentry/multientry.php" class="btn btn-success pull-right">Add New Employee - Single / Multiple Entry</a>
+                        <a href="/site/mulentry/multientry.php" class="btn btn-success pull-right">Click Here to Add New Employee </a>
                     </div>
-                    <div align="right">
-                        <a href="/site/mulentry/multientry.php" class="btn btn-success pull-right">Add New Employee - Multi Entry</a></div>
                     
     <div class="row">
         <div class="col-md-6 col-md-offset-0">
-            <form enctype="multipart/form-data" method="post" action="/csv/import.php">
+            <form enctype="multipart/form-data" method="post" action="/site/csv/import.php">
                 <div class="form-group">
                     <label for="file">Select .CSV file to Import Employee Record</label>
                     <input name="file" type="file" class="form-control">
