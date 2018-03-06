@@ -3,7 +3,7 @@
 /* Database credentials. Assuming you are running MySQL
 server with default setting (user 'root' with no password) */
 define('DB_SERVER', 'hrmdb.mysql.database.azure.com');
-define('DB_USERNAME', 'crude');
+define('DB_USERNAME', 'rooter@hrmdb');
 define('DB_PASSWORD', 'Test1234');
 define('DB_NAME', 'crude');
  
