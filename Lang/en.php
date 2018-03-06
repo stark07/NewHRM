@@ -36,6 +36,8 @@ return array(
 	// navigation menu
 
 	"home" => "Home",
+	
+	"dbms" => "Database",
 
 	"users" => "Users",
 
