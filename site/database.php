@@ -1,5 +1,5 @@
 <?php
-include '/templates/header.php';
+include '/site/templates/header.php';
 ?>
 
 <!DOCTYPE html>
