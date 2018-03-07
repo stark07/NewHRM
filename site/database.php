@@ -123,5 +123,5 @@ include '/site/templates/header.php';
 </html>
 
 
-<?php include '/templates/footer.php';
+<?php include '/site/templates/footer.php';
      ?>
