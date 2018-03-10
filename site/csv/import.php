@@ -28,7 +28,7 @@ if (isset($_POST['submit'])) {
          FIELDS TERMINATED BY ','
          LINES TERMINATED BY '\n'
          IGNORE 1 LINES
-        (Name,address,salary)
+        (id,name,address,salary)
 eof;
         if (!$result = mysqli_query($con, $query)) {
             exit(mysqli_error($con));
