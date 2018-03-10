@@ -4,7 +4,7 @@ function search() {
 	if(query_value !== ''){
 		$.ajax({
 			type: "POST",
-			url: "php/search.php",
+			url: "search.php",
 			data: { query: query_value },
 			cache: false,
 			success: function(html){
