@@ -49,6 +49,23 @@ include '/site/templates/header.php';
 			</button> </span>
 	</div>
 </form>
+	
+	<table id="resultTable" class="table table-bordered table-hover table-condensed">
+	<thead>
+		<tr>
+
+			<th class="small">ID</th>
+			<th class="small">Name</th>
+			<th class="small">Address</th>
+			<th class="small">Salary</th>
+
+		</tr>
+	</thead>
+
+	<tbody></tbody>
+</table>
+	
+	
 <body>
     <div class="btn-group">
   <button type="button" class="btn btn-danger">Menu</button>
