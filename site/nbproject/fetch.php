@@ -5,7 +5,7 @@ if(isset($_POST["query"]))
  $connect = mysqli_connect("hrmdb.mysql.database.azure.com", "rooter@hrmdb", "Test1234", "crude");
  $request = mysqli_real_escape_string($connect, $_POST["query"]);
  $query = "
-  SELECT * FROM employee 
+  SELECT * FROM employees 
   WHERE name LIKE '%".$request."%' 
   OR address LIKE '%".$request."%' 
   OR salary LIKE '%".$request."%'
