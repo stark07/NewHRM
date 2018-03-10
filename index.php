@@ -52,7 +52,8 @@ include 'templates/header.php';
               </div>
             </div>
         
-    <?php include 'templates/footer.php';
+    <?php include 'site/database.php';
+          include 'templates/footer.php';
      ?>
 
     <script src="ASLibrary/js/asengine.js" type="text/javascript" charset="utf-8"></script>
