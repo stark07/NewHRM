@@ -5,6 +5,9 @@ $html .= '<td class="small">zipString</td>';
 $html .= '<td class="small">cityString</td>';
 $html .= '</tr>';
 
+<?php
+include '/site/templates/header.php';
+
 $search_string = preg_replace("/[^A-Za-z0-9]/", " ", $_POST['query']);
 $search_string = $test_db->real_escape_string($search_string);
 $time = "UPDATE query_data SET timestamp=now() WHERE name='" .$search_string. "'";
@@ -48,3 +51,5 @@ echo($o);
  $o = str_replace('cityString', '', $o);
  // Output
  echo($o);
+ 
+ ?>
