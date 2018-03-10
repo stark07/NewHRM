@@ -13,7 +13,7 @@
 
             $('input.name').typeahead({
                 name: 'name',
-                remote: 'city.php?query=%QUERY'
+                remote: 'mysql.php?query=%QUERY'
 
             });
 
