@@ -23,7 +23,13 @@
     
  </head>
  <body>
-  
+  <div class="content">
+
+        <form>
+            <h6>Search Database</h6>
+            <input type="text" name="name" size="30" class="name" placeholder="Please Enter Name">
+        </form>
+    </div>
   <div class="btn-group">
   <button type="button" class="btn btn-danger">Menu</button>
   <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
