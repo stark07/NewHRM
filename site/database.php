@@ -83,6 +83,9 @@ include '/site/templates/header.php';
             </div>
         </div>
     </div>
+                    <div align="center">
+     <a href="/site/nbproject/index.php" class="btn btn-info" role="button">Search Database</a>
+    </div>
                     <?php
                     // Include config file
                     require_once 'config.php';
