@@ -48,7 +48,7 @@
         $(document).ready(function() {
             $('input.name').typeahead({
                 name: 'name',
-                remote: 'name.php?query=%QUERY'
+                remote: 'mysql.php?query=%QUERY'
             });
         })
     </script>
