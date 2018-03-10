@@ -13,3 +13,20 @@ function search() {
 		});
 	}return false;    
 }
+
+$("input#name").live("keyup", function(e) {
+	// Set a timeout
+	clearTimeout($.data(this, 'timer'));
+	
+	// Search String
+	var search_string = $(this).val();
+	
+	// Search
+	if (search_string == '') {
+		$("table#resultTable tbody").fadeOut(50);
+	}else{
+		$("table#resultTable tbody").fadeIn(50);
+		$(this).data('timer', setTimeout(search, 100));
+	};
+});
+
