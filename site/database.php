@@ -40,32 +40,6 @@ include '/site/templates/header.php';
     
     </script>
 </head>
-    <form class="form-horizontal" name="search" role="form" method="POST" onkeypress="return event.keyCode != 13;">
-	<div class="input-group col-sm-11">
-		<input id="name" name="name" type="text" class="form-control" placeholder="Search by name..." autocomplete="off"/>
-		<span class="input-group-btn">
-			<button type="button" class="btn btn-default btnSearch">
-				<span class="glyphicon glyphicon-search"> </span>
-			</button> </span>
-	</div>
-</form>
-	
-	<table id="resultTable" class="table table-bordered table-hover table-condensed">
-	<thead>
-		<tr>
-
-			<th class="small">name</th>
-			<th class="small">address</th>
-			<th class="small">salary</th>
-			<th class="small">Salary</th>
-
-		</tr>
-	</thead>
-
-	<tbody></tbody>
-</table>
-	
-	
 <body>
     <div class="btn-group">
   <button type="button" class="btn btn-danger">Menu</button>
