@@ -29,8 +29,8 @@ foreach ($result_array as $result) {
  
 // Output strings and highlight the matches
 $d_name = preg_replace("/".$search_string."/i", "<b>".$search_string."</b>", $result['name']);
-$d_comp = $result['name'];
-$d_zip = $result['address'];
+$d_comp = $result['address'];
+$d_zip = $result['salary'];
 $d_city = $result['salary'];
 
 
