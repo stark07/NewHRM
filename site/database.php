@@ -85,7 +85,7 @@ include '/site/templates/header.php';
     </div>
                     
       <div align="left">              
-      <p>Search icon as a link:
+      <p>Search Employee's Records:
         <a href="/site/nbproject/index.php">
           <span class="glyphicon glyphicon-search"></span>
         </a>
