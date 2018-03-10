@@ -136,4 +136,6 @@ $(document).ready(function(){
  
 });
 </script>
-
+<div align="center">
+     <a href="/site/database.php" class="btn btn-info" role="button">Back</a>
+    </div>
