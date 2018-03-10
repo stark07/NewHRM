@@ -24,7 +24,7 @@
 
         <form>
             <h6>Search Database</h6>
-            <input type="text" name="name" size="30" class="name" placeholder="Please Enter Name">
+            <input type="text" name="name" size="30" class="mysql" placeholder="Please Enter Name">
         </form>
     </div>
   <div class="btn-group">
