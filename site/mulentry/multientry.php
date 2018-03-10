@@ -10,13 +10,10 @@
     
   <script>
         $(document).ready(function() {
-
             $('input.name').typeahead({
                 name: 'name',
                 remote: 'mysql.php?query=%QUERY'
-
             });
-
         })
     </script>
     
