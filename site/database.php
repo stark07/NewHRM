@@ -83,8 +83,8 @@ include '/site/templates/header.php';
             </div>
         </div>
     </div>
-                    <div align="center">
-     <a href="/site/nbproject/index.php" class="btn btn-info" role="button">Search Database</a>
+                    <div align="left">
+     <a href="/site/nbproject/index.php" class="glyphicon glyphicon-name" role="button">Search Database</a>
     </div>
                     <?php
                     // Include config file
