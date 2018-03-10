@@ -54,9 +54,9 @@ include '/site/templates/header.php';
 	<thead>
 		<tr>
 
-			<th class="small">ID</th>
-			<th class="small">Name</th>
-			<th class="small">Address</th>
+			<th class="small">name</th>
+			<th class="small">address</th>
+			<th class="small">salary</th>
 			<th class="small">Salary</th>
 
 		</tr>
