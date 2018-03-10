@@ -83,9 +83,15 @@ include '/site/templates/header.php';
             </div>
         </div>
     </div>
-                    <div align="left">
-     <a href="/site/nbproject/index.php" class="glyphicon glyphicon-name" role="button">Search Database</a>
-    </div>
+                    
+      <div align="left">              
+      <p>Search icon as a link:
+        <a href="/site/nbproject/index.php">
+          <span class="glyphicon glyphicon-search"></span>
+        </a>
+      </p>
+       </div>
+
                     <?php
                     // Include config file
                     require_once 'config.php';
