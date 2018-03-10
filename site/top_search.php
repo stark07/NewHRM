@@ -12,9 +12,9 @@ require_once 'config.php';
 	foreach ($result_array as $result) {
 		// The output
 		echo '<tr>';			
-		echo '<td class="small">'.$result['id'].'</td>';
 		echo '<td class="small">'.$result['name'].'</td>';
 		echo '<td class="small">'.$result['address'].'</td>';
+		echo '<td class="small">'.$result['salary'].'</td>';
 		echo '<td class="small">'.$result['salary'].'</td>';
 		echo '</tr>';	
 	}
