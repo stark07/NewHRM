@@ -52,7 +52,7 @@ include '/site/templates/header.php';
     <li><a href="../profile.php">Profile</a></li>
     <li><a href="../logout.php">Logout</a></li>
     <li role="separator" class="divider"></li>
-    <li><a href="#">Separated link</a></li>
+    <li><a href="in.linkedin.com/in/memonsaad/">Developer's Profile</a></li>
   </ul>
 </div>
     <div class="wrapper">
