@@ -9,7 +9,7 @@ $search_string = preg_replace("/[^A-Za-z0-9]/", " ", $_POST['query']);
 $search_string = $test_db->real_escape_string($search_string);
 $time = "UPDATE query_data SET timestamp=now() WHERE name='" .$search_string. "'";
 $query_count = "UPDATE query_data SET querycount = querycount +1 WHERE name='" .$search_string. "'";
-$query = 'SELECT * FROM live_table WHERE name LIKE "%'.$search_string.'%"';
+$query = 'SELECT * FROM employee WHERE name LIKE "%'.$search_string.'%"';
 //Timestamp entry of search for later display
  $time_entry = $test_db->query($time);
  //Count how many times a query occurs
@@ -26,9 +26,9 @@ foreach ($result_array as $result) {
  
 // Output strings and highlight the matches
 $d_name = preg_replace("/".$search_string."/i", "<b>".$search_string."</b>", $result['name']);
-$d_comp = $result['company'];
-$d_zip = $result['zip'];
-$d_city = $result['city'];
+$d_comp = $result['name'];
+$d_zip = $result['address'];
+$d_city = $result['salary'];
 
 
 // Replace the items into above HTML
