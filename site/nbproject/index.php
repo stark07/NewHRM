@@ -9,7 +9,7 @@
  <body>
   <br /><br />
   <div class="container">
-   <h2 align="center">How to Search Table Data by Typehead with PHP Ajax</h2>
+   <h2 align="center">Search Table Data by Typehead with PHP Ajax</h2>
    <br /><br />
    <label>Search Employee Details</label>
    <div id="search_area">
