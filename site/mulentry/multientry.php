@@ -23,6 +23,21 @@
     
  </head>
  <body>
+  
+  <div class="btn-group">
+  <button type="button" class="btn btn-danger">Menu</button>
+  <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <span class="caret"></span>
+    <span class="sr-only">Toggle Dropdown</span>
+  </button>
+  <ul class="dropdown-menu">
+    <li><a href="../../index.php">Home</a></li>
+    <li><a href="../../profile.php">Profile</a></li>
+    <li><a href="../../logout.php">Logout</a></li>
+    <li role="separator" class="divider"></li>
+    <li><a href="#">Separated link</a></li>
+  </ul>
+</div>
   <br /><br />
   <div class="container">
    <br />
