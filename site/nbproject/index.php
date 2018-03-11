@@ -64,3 +64,6 @@ $(document).ready(function(){
  
 });
 </script>
+<div align="center">
+     <a href="../database.php" class="btn btn-info" role="button">Back</a>
+    </div>
