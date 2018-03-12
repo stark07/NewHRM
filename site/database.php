@@ -10,33 +10,6 @@ include '/site/templates/header.php';
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.js"></script>
-    <style type="text/css">
-        .wrapper{
-            width: 650px;
-            margin: 0 auto;
-        }
-        .page-header h2{
-            margin-top: 0;
-        }
-        table tr td:last-child a{
-            margin-right: 15px;
-        }
-    </style>
-    <script type="text/javascript">
-        $(document).ready(function(){
-            $('[data-toggle="tooltip"]').tooltip();   
-        });
-        
-        
-    <style>   
-    div.relative {
-    position: relative;
-    width: 400px;
-    height: 200px;
-    border: 3px solid #73AD21;
-} 
-    </style>
-    
     
     </script>
 </head>
@@ -52,9 +25,10 @@ include '/site/templates/header.php';
     <li><a href="../profile.php">Profile</a></li>
     <li><a href="../logout.php">Logout</a></li>
     <li role="separator" class="divider"></li>
-    <li><a href="in.linkedin.com/in/memonsaad/">Developer's Profile</a></li>
+    <li><a href="in.linkedin.com/in/memonsaad/">Connect to Developer</a></li>
   </ul>
 </div>
+  <br /><br />
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
