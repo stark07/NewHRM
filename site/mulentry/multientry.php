@@ -20,8 +20,8 @@
       <li class="active"><a href="#">Home</a></li>
       <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">View<span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li><a href="../users.php">Users</a></li>
-          <li><a href="database.php">Database</a></li>
+          <li><a href="../../users.php">Users</a></li>
+          <li><a href="../database.php">Database</a></li>
           </ul>
       </li>
       <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Goto<span class="caret"></span></a>
