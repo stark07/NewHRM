@@ -14,12 +14,12 @@
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 <!------ Include the above in your HEAD tag ---------->
+  <h2 class="pull-center">Employees Details</h2>
     <div class="wrapper">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12">
                     <div class="page-header clearfix">
-                        <h2 class="pull-center">Employees Details</h2>
                         <a href="/site/mulentry/multientry.php" class="btn btn-success pull-right">Click Here to Add New Employee </a>
                     </div>
                     
