@@ -2,10 +2,7 @@
 include '../templates/header.php';
 ?>
 <?php if($user->isAdmin()): ?>
-                  
-                  
-                  <?php endif;
-                        ?>
+
 <!DOCTYPE html>
 <html>
  <head>
