@@ -27,7 +27,10 @@ include '/templates/header.php';
     <li><a href="in.linkedin.com/in/memonsaad/">Connect to Developer</a></li>
   </ul>
 </div>
-  <br /><br />
+ <br /><br />
+  <div class="container">
+   <br />
+
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
