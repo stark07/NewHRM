@@ -1,5 +1,5 @@
 <?php
-include 'templates/header.php';
+include '../templates/header.php';
 ?>
 <?php if($user->isAdmin()): ?>
                   
