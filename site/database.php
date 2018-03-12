@@ -30,7 +30,7 @@
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 <!------ Include the above in your HEAD tag ---------->
-  <h4 class="pull-center">Employees Details</h4>
+  <h4 class="pull-center"><center>Employees Details</center></h4>
     <div class="wrapper">
         <div class="container-fluid">
             <div class="row">
