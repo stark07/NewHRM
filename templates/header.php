@@ -40,49 +40,7 @@ $userInfo = $user->getInfo();
   </head>
 
   <body>
-    <div id="wrap">
-            <!-- Navbar
-            ================================================== -->
-            <div class="navbar navbar-fixed-top">
-              <div class="navbar-inner">
-                <div class="container">
-                    <ul class="nav navbar-nav"> 
-                        <a class="brand navbar-brand" href="./index.php"><?php echo WEBSITE_NAME;  ?></a>
-                    </ul>
-                    <div class="pull-right">
-                        <div class="header-flags-wrapper">
-                            <a href="?lang=en">
-                                <img src="assets/img/en.png" alt="English" title="English"
-                                     class="<?php echo ASLang::getLanguage() != 'en' ? 'fade' : ''; ?>" />
-                            </a>
-                        </div>
-                        <ul class="nav pull-right">
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                    <?php echo ASLang::get('welcome'); ?>, <?php echo htmlentities($userInfo['username']);  ?>
-                                    <b class="caret"></b>
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li>
-                                        <a href="profile.php">
-                                            <i class="icon-user glyphicon glyphicon-user"></i> 
-                                            <?php echo ASLang::get('my_profile'); ?>
-                                        </a>
-                                    </li>
-                                    <li class="divider"></li>
-                                    <li>
-                                        <a href="logout.php" id="logout">
-                                            <i class="icon-off glyphicon glyphicon-off"></i> 
-                                            <?php echo ASLang::get('logout'); ?>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                      </div>
-                </div>
-              </div>
-            </div>
+    
         
         
           <div class="container">
