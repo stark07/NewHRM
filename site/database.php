@@ -9,28 +9,12 @@
     <script src="//netsh.pp.ua/upwork-demo/1/js/typeahead.js"></script>
  </head>
  <body>
-  
-  <div class="btn-group">
-  <button type="button" class="btn btn-danger">Menu</button>
-  <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    <span class="caret"></span>
-    <span class="sr-only">Toggle Dropdown</span>
-  </button>
-  <ul class="dropdown-menu">
-    <li><a href="../index.php">Home</a></li>
-    <li><a href="../profile.php">Profile</a></li>
-    <li><a href="../logout.php">Logout</a></li>
-    <li role="separator" class="divider"></li>
-    <li><a href="in.linkedin.com/in/memonsaad/">Connect to Developer</a></li>
-  </ul>
-</div>
-  
 
 <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 <!------ Include the above in your HEAD tag ---------->
-  <h4 class="pull-center"><center>Employees Details</center></h4>
+  <h2 class="pull-center"><center>Employees Details</center></h2>
     <div class="wrapper">
         <div class="container-fluid">
             <div class="row">
