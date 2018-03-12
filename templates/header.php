@@ -55,10 +55,6 @@ $userInfo = $user->getInfo();
                                 <img src="assets/img/en.png" alt="English" title="English"
                                      class="<?php echo ASLang::getLanguage() != 'en' ? 'fade' : ''; ?>" />
                             </a>
-                            <a href="?lang=rs">
-                                <img src="assets/img/rs.png" alt="Serbian" title="Serbian (cyrillic)"
-                                     class="<?php echo ASLang::getLanguage() != 'rs' ? 'fade' : ''; ?>" />
-                            </a>
                         </div>
                         <ul class="nav pull-right">
                             <li class="dropdown">
