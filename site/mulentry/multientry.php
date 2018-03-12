@@ -9,6 +9,33 @@
  </head>
  <body>
   
+  <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">HRM Systems</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">View<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="../users.php">Users</a></li>
+          <li><a href="database.php">Database</a></li>
+          
+        </ul>
+      </li>
+      <li><a href="#">Goto</a>
+     <ul class="dropdown-menu">
+          <li><a href="../profile.php">Record Entry</a></li>
+          <li><a href="database.php">Search</a></li>
+     </li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="../../login.php"><span class="glyphicon glyphicon-user"></span> Login Portal</a></li>
+      <li><a href="../../logout.php"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
+    </ul>
+  </div>
+</nav>
+  
   <div class="btn-group">
   <button type="button" class="btn btn-danger">Menu</button>
   <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
