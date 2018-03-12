@@ -7,7 +7,6 @@ $result = mysqli_query($connect, $query);
 $output = '
 <br />
 <h3 align="center">Current Record on Database</h3>
-<a href="../database.php"><div align="Center">Click Here to Update/Delete Entry</a></div>
 <table class="table table-bordered table-striped">
  <tr>
   <th width="5%">ID</th>
