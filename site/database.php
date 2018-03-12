@@ -1,7 +1,3 @@
-<?php
-include '../templates/header.php';
-php if($user->isAdmin()): ?>
-
 <!DOCTYPE html>
 <html>
  <head>
