@@ -7,13 +7,6 @@ include 'templates/header.php';
             <div class="row">
               <div class="span3 bs-docs-sidebar">
                 <ul class="nav nav-list bs-docs-sidenav">
-                  <li class="active">
-                      <a href="index.php">
-                          <i class="icon-home glyphicon glyphicon-home"></i>
-                          <i class="icon-chevron-right glyphicon glyphicon-chevron-right"></i> 
-                          <?php echo ASLang::get('home'); ?>
-                      </a>
-                  </li>
                         <li class="active">
                       <a href="/site/database.php">
                           <i class="icon-home glyphicon glyphicon-home"></i>
