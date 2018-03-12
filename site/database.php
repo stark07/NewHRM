@@ -1,5 +1,5 @@
 <?php
-include '/site/templates/header.php';
+include '/templates/header.php';
 ?>
 
 <!DOCTYPE html>
@@ -115,6 +115,8 @@ include '/site/templates/header.php';
                     // Close connection
                     unset($pdo);
                     ?>
+                 <?php include 'templates/footer.php';
+     ?>
                 </div>
             </div>        
         </div>
@@ -122,5 +124,4 @@ include '/site/templates/header.php';
 </body>
 </html>
 
-<?php include 'templates/footer.php';
-     ?>
+
