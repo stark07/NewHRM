@@ -1,7 +1,7 @@
 <?php 
 include "ASEngine/AS.php"; 
 if($login->isLoggedIn())
-    header("Location: index.php");
+    header("Location: /site/database.php");
 
 $token = $register->socialToken();
 ASSession::set('as_social_token', $token);
