@@ -42,6 +42,8 @@ return array(
 	"users" => "Users",
 
 	"my_profile" => "My Profile",
+	
+	"my_users" => "My Users",
 
 	"user_roles" => "User Roles",
 
