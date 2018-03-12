@@ -3,17 +3,16 @@ include '/site/templates/header.php';
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html>
+ <head>
     <meta charset="UTF-8">
     <title>Dashboard </title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.js"></script>
-    
-    </script>
-</head>
-<body>
+    <<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="//netsh.pp.ua/upwork-demo/1/js/typeahead.js"></script>
+ </head>
+ <body>
     <div class="btn-group">
   <button type="button" class="btn btn-danger">Menu</button>
   <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
