@@ -19,7 +19,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="page-header clearfix">
-                        <h2 class="pull-left">Employees Details</h2>
+                        <h2 class="pull-center">Employees Details</h2>
                         <a href="/site/mulentry/multientry.php" class="btn btn-success pull-right">Click Here to Add New Employee </a>
                     </div>
                     
