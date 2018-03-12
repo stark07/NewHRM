@@ -1,7 +1,6 @@
 <?php
 include '../templates/header.php';
-?>
-<?php if($user->isAdmin()): ?>
+php if($user->isAdmin()): ?>
 
 <!DOCTYPE html>
 <html>
@@ -140,5 +139,3 @@ include '../templates/header.php';
    
 </body>
 </html>
-
-
