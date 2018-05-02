@@ -4,12 +4,11 @@
 * Version: 1.0.0
 * Page: DB Connection
 */
-
 // Connection variables
-$host = "hrmdb.mysql.database.azure.com"; // MySQL host name eg. localhost
-$user = "rooter@hrmdb"; // MySQL user. eg. root ( if your on local server)
-$password = "Test1234"; // MySQL user password  (if password is not set for your root user then keep it empty )
-$database = "crude"; // MySQL Database name
+$host = "sql2.freemysqlhosting.net"; // MySQL host name eg. localhost
+$user = "sql2235976"; // MySQL user. eg. root ( if your on local server)
+$password = "jK6%hY8*"; // MySQL user password  (if password is not set for your root user then keep it empty )
+$database = "sql2235976"; // MySQL Database name
 
 // Connect to MySQL Database
 $con = new mysqli($host, $user, $password, $database);
