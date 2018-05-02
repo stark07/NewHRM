@@ -1,6 +1,6 @@
 <?php
 //fetch.php
-$connect = mysqli_connect("hrmdb.mysql.database.azure.com", "rooter@hrmdb", "Test1234", "crude");
+$connect = mysqli_connect("sql2.freemysqlhosting.net", "sql2235976", "jK6%hY8*", "sql2235976");
 $output = '';
 $query = "SELECT * from employees item ORDER BY id DESC";
 $result = mysqli_query($connect, $query);
