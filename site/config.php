@@ -2,10 +2,10 @@
 
 /* Database credentials. Assuming you are running MySQL
 server with default setting (user 'root' with no password) */
-define('DB_SERVER', 'hrmdb.mysql.database.azure.com');
-define('DB_USERNAME', 'rooter@hrmdb');
-define('DB_PASSWORD', 'Test1234');
-define('DB_NAME', 'crude');
+define('DB_SERVER', 'sql2.freemysqlhosting.net');
+define('DB_USERNAME', 'sql2235976');
+define('DB_PASSWORD', 'jK6%hY8*');
+define('DB_NAME', 'sql2235976');
  
 /* Attempt to connect to MySQL database */
 try{
