@@ -1,6 +1,6 @@
 <?php
 //insert.php
-$connect = mysqli_connect("hrmdb.mysql.database.azure.com", "rooter@hrmdb", "Test1234", "crude");
+$connect = mysqli_connect("sql2.freemysqlhosting.net", "sql2235976", "jK6%hY8*", "sql2235976");
 if(isset($_POST["id"]))
 {
  $id = $_POST["id"];
